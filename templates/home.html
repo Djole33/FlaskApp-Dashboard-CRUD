@@ -3,10 +3,11 @@
 {% block body %}
   <div class="jumbotron text-center">
     <h1>Welcome To FlaskApp</h1>
-    <p class="lead">This application is built in the Python Flask framework.</p>
+    <p class="lead">This application is built in the Python Flask framework. Enjoy!</p>
     {% if session.logged_in == NULL %}
       <a href="/register" class="btn btn-primary btn-lg">Register</a>
       <a href="/login" class="btn btn-success btn-lg">Login</a>
     {% endif %}
   </div>
 {% endblock %}
+
